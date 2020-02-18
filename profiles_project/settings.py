@@ -25,7 +25,10 @@ SECRET_KEY = '8+gpfvbhb+qetc781!v#(!h$w@g^u-(us!bit!(hyz(edm-f*0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec2-52-14-3-125.us-east-2.compute.amazonaws.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
